@@ -1,7 +1,7 @@
 function Stack() {
   this._size    = 0;
   this._storage = {};
-};
+}
 
 Stack.prototype.push = function(data) {
   var size            = ++this._size;
