@@ -5,7 +5,7 @@ In this repository, you'll find the following data structures:
 
 - [Stack][2]
 - [Queue][3]
-- Singly-Linked List
+- [Singly-Linked List][4]
 - Doubly-Linked List
 - Tree
 
@@ -13,3 +13,4 @@ In this repository, you'll find the following data structures:
 
 [2]: /src/stack.js
 [3]: /src/queue.js
+[4]: /src/singly_list.js
