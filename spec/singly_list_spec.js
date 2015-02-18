@@ -76,11 +76,15 @@ describe("SinglyList", function() {
       });
 
       it("should throw an error with a position of -1", function() {
-        expect(function() { singly.searchNodeAt(-1); }).toThrowError("Failure: non-existent node in this list.");
+        expect(function() { 
+          singly.searchNodeAt(-1); 
+        }).toThrowError("Failure: non-existent node in this list.");
       });
 
       it("should throw an error with a position of 20", function() {
-        expect(function() { singly.searchNodeAt(20); }).toThrowError("Failure: non-existent node in this list.");
+        expect(function() { 
+          singly.searchNodeAt(20); 
+        }).toThrowError("Failure: non-existent node in this list.");
       });
     });
 
@@ -125,11 +129,15 @@ describe("SinglyList", function() {
       });
 
       it("should throw an error with a position of -1", function() {
-        expect(function() { singly.remove(-1); }).toThrowError("Failure: non-existent node in this list.");
+        expect(function() { 
+          singly.remove(-1); 
+        }).toThrowError("Failure: non-existent node in this list.");
       });
 
       it("should throw an error with a position of 20", function() {
-        expect(function() { singly.remove(20); }).toThrowError("Failure: non-existent node in this list.");
+        expect(function() { 
+          singly.remove(20); 
+        }).toThrowError("Failure: non-existent node in this list.");
       });
     });
 
