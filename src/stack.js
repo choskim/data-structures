@@ -20,4 +20,4 @@ Stack.prototype.pop = function() {
     
     return deletedData;
   }
-}; 
+};
